@@ -30,7 +30,8 @@ MemeSite is a simple Laravel-based platform designed for handling and managing m
 *Description of the edit page, explaining how users can modify existing memes and save changes.*
 
 ### Post Comment Page                                                                               ![Post Comment Page](path/to/your/screenshot/post.png)                                                      
-*Description of the post creation form, highlighting the areas where users can paste Twitter (X) text and submit the meme.*                                                                             ### Edit Comment Page                                                                               ![Edit Comment Page](path/to/your/screenshot/edit.png)                                                      
+*Description of the post creation form, highlighting the areas where users can paste Twitter (X) text and submit the meme.*                                                                             
+### Edit Comment Page                                                                               ![Edit Comment Page](path/to/your/screenshot/edit.png)                                                      
 *Description of the edit page, explaining how users can modify existing memes and save changes.*
 
 ## Getting Started

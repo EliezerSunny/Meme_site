@@ -13,25 +13,25 @@ MemeSite is a simple Laravel-based platform designed for handling and managing m
 
 ### Index Page
 
-![Index Page](public/assets/img/1724518393-Commit Memes.jpg)
+![Index Page](https://github.com/EliezerSunny/Meme_site/blob/main/public/assets/img/1724518393-Commit%20Memes.jpg)
 
 *Description of what users see on the index page, including features like the list of memes and navigation options.*
 
 ### Post Page
 
-![Post Page](path/to/your/screenshot/post.png)
+![Post Page](https://github.com/EliezerSunny/Meme_site/blob/main/public/assets/img/1724522135-Unknown.jpg)
 
 *Description of the post creation form, highlighting the areas where users can paste Twitter (X) text and submit the meme.*
 
 ### Edit Page
 
-![Edit Page](path/to/your/screenshot/edit.png)
+![Edit Page](https://github.com/EliezerSunny/Meme_site/blob/main/public/assets/img/1724521966-Unknown.jpg)
 
 *Description of the edit page, explaining how users can modify existing memes and save changes.*
 
-### Post Comment Page                                                                               ![Post Comment Page](path/to/your/screenshot/post.png)                                                      
+### Post Comment Page                                                                               ![Post Comment Page](https://github.com/EliezerSunny/Meme_site/blob/main/public/assets/img/1724522116-Unknown.jpg)                                                      
 *Description of the post creation form, highlighting the areas where users can paste Twitter (X) text and submit the meme.*                                                                             
-### Edit Comment Page                                                                               ![Edit Comment Page](path/to/your/screenshot/edit.png)                                                      
+### Edit Comment Page                                                                               ![Edit Comment Page](https://github.com/EliezerSunny/Meme_site/blob/main/public/assets/img/1724522009-Unknown.jpg)                                                      
 *Description of the edit page, explaining how users can modify existing memes and save changes.*
 
 ## Getting Started

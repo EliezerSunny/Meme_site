@@ -203,7 +203,7 @@
 <body>
 
 	<div class="watermark">
-		<span>@commit_memes</span>
+		<span>{{'@'.$postcomments->username}}</span>
 	</div>
 	<!-- container -->
 	<div class="container">
@@ -238,7 +238,7 @@
 			@endif
 
 			<div class="date_views">
-				<span>6:40 AM . Sep 20, 2023 . <span class="view_count">{{$posts->view}}</span> Views</span>
+				<span>{{ $posts->updated_at->format('g:i a . F j, Y') }} . <span class="view_count">{{$posts->view}}</span> Views</span>
 			</div>
 			<hr>
 
@@ -259,7 +259,7 @@
 
 
 		<div class="watermark2">
-			<span>@commit_memes</span>
+			<span>{{'@'.$postcomments->username}}</span>
 		</div>
 
 
@@ -279,7 +279,7 @@
 
 		<div class="name2">
 		<div class="user_name2">
-			<h4>{{$postcomments->name}} <img src="{{asset('assets/img/verified.png')}}" alt="Verified"> <span class="username">{{'@'.$postcomments->username}} . 17h</span></h4>
+			<h4>{{$postcomments->name}} <img src="{{asset('assets/img/verified.png')}}" alt="Verified"> <span class="username">{{'@'.$postcomments->username}} . {{ $postcomments->updated_at->diffForHumans(null, true, true) }}</span></h4>
 			<span class="comment_text"><span class="username">Replying to <a href="#">{{'@'.$posts->username}}</a></span> <br> {{$postcomments->post}}</span>
 		</div>
 
@@ -302,7 +302,7 @@
 		<div class="r_c_s">
 			<button><i class="fa fa-comment-o"></i> {{$postcomments->comment}}</button>
 			<button><i class="fa fa-repost"></i> {{$postcomments->repost}}</button>
-			<button style="color: #f91880;"><i class="fa fa-heart"></i> {{$postcomments->like}}</button>
+			<button><i class="fa fa-heart"></i> {{$postcomments->like}}</button>
 			<button><i class="fa fa-eye"></i> {{$postcomments->view}}</button>
 			<button><i class="fa fa-share-alt"></i> {{$postcomments->share}}</button>
 		</div>

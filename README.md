@@ -13,7 +13,7 @@ MemeSite is a simple Laravel-based platform designed for handling and managing m
 
 ### Index Page
 
-![Index Page](path/to/your/screenshot/index.png)
+![Index Page](public/assets/img/1724518393-Commit Memes.jpg)
 
 *Description of what users see on the index page, including features like the list of memes and navigation options.*
 
@@ -27,6 +27,10 @@ MemeSite is a simple Laravel-based platform designed for handling and managing m
 
 ![Edit Page](path/to/your/screenshot/edit.png)
 
+*Description of the edit page, explaining how users can modify existing memes and save changes.*
+
+### Post Comment Page                                                                               ![Post Comment Page](path/to/your/screenshot/post.png)                                                      
+*Description of the post creation form, highlighting the areas where users can paste Twitter (X) text and submit the meme.*                                                                             ### Edit Comment Page                                                                               ![Edit Comment Page](path/to/your/screenshot/edit.png)                                                      
 *Description of the edit page, explaining how users can modify existing memes and save changes.*
 
 ## Getting Started
@@ -49,7 +53,7 @@ Before you can run this project, ensure that you have the following installed:
 
    ```bash
    git clone https://github.com/EliezerSunny/Meme_site.git
-   cd mememaster
+   cd Meme_site
    ```
 
 2. **Install PHP Dependencies**
@@ -114,15 +118,20 @@ Before you can run this project, ensure that you have the following installed:
 
 ### Posting Memes
 
-1. **Log In**: Access the login page and log in with your credentials.
+1. **Home page**: Access the home page to view the meme using `http://localhost:8000` which also have comment under post.
 2. **Create a Post**: Navigate to the post creation page.
 3. **Paste Twitter (X) Text**: Copy text from Twitter (X) and paste it into the post form.
 4. **Save**: Submit the form to save the meme in the database.
 
+### Posting Comment Memes Under Post
+1. **Create a Comment under Post**: Navigate to the post comment creation page.
+2. **Paste Twitter (X) Text**: Copy text from Twitter (X) and paste it into the post comment form.
+3. **Save**: Submit the form to save the meme in the database.
+
 ### Managing Memes
 
 - **Edit**: Modify existing memes via the edit page.
-- **Delete**: Remove unwanted memes from the database.
+**Delete**: Remove unwanted memes from the database.
 
 ## Contact
 

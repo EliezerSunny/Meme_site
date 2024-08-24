@@ -1,4 +1,3 @@
-```markdown
 # MemeSite - Laravel Meme Management Platform
 
 MemeSite is a simple Laravel-based platform designed for handling and managing memes from Twitter (X). The project allows users to manually copy and paste text from Twitter (X) into the platform's post page, where it is stored and managed using a MySQL database.
